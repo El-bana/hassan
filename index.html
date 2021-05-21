@@ -62,28 +62,64 @@
             <li>
               <a href="#" id="home" class="navigation-button">الرئيسية </a>
             </li>
-            <li>
-              <a href="#" id="about" class="navigation-button">نبذة عنا </a>
+            <li class="dropdown">
+              <a href="#" id="about" class="navigation-button dropbtn"
+                >نبذة عنا
+              </a>
+              <div class="dropdown-content">
+                <a href="#">رؤية المؤسسة 2030 م</a>
+                <a href="#">مجلس الأمناء</a>
+                <a href="#">شركاء النجاح</a>
+              </div>
             </li>
-            <li>
-              <a href="#" id="prog" class="navigation-button"
+            <li class="dropdown">
+              <a href="#" id="prog" class="navigation-button dropbtn"
                 >البرامج والإنجازات
               </a>
+              <div class="dropdown-content">
+                <a href="#">برنامج إعمار بيوت الله</a>
+                <a href="#">برنامج العناية بالقرآن الكريم</a>
+                <a href="#">برنامج إفطار صائم</a>
+                <a href="#">برنامج المساعدة على أداء الحج والعمرة</a>
+                <a href="#">برنامج نشر العلم</a>
+                <a href="#">برنامج المنح الدراسية</a>
+                <a href="#">برامج دعم إنشاء مباني في مؤسسات علمية وثقافية</a>
+                <a href="#">برنامج الرعاية الطبية</a>
+                <a href="#">برنامج الإعانات</a>
+                <a href="#">برنامج مساعدة ذوي الاحتياجات الخاصة</a>
+                <a href="#">برنامج رعاية الأيتام</a>
+                <a href="#">برنامج مساعدة الشباب على الزواج</a>
+                <a href="#">برنامج لدعم المؤسسات الخيرية</a>
+                <a href="#">دعم برامج تحت مسمى مؤسسة حسن عباس شربتلي الخيرية</a>
+                <a href="#">مشاريع مستقبلية تحت الإنشاء</a>
+              </div>
             </li>
-            <li>
-              <a href="#" id="media" class="navigation-button"
+            <li class="dropdown">
+              <a href="#" id="media" class="navigation-button dropbtn"
                 >المركز الإعلامي
               </a>
+              <div class="dropdown-content">
+                <a href="#">القائمة البريدية</a>
+                <a href="#">ألبوم الصور</a>
+              </div>
             </li>
-            <li>
-              <a href="#" id="contact" class="navigation-button">اتصل بنا </a>
+            <li class="dropdown">
+              <a href="#" id="contact" class="navigation-button dropbtn"
+                >اتصل بنا
+              </a>
+              <div class="dropdown-content">
+                <a href="#">معلومات الاتصال للمركز الرئيسي</a>
+                <a href="#">نموذج الاقتراحات</a>
+                <a href="#">التوظيف</a>
+                <a href="#">البريد الالكتروني</a>
+              </div>
             </li>
           </ul>
         </div>
       </div>
-      <div class="latest-news">
-        <h2 class="latest-news__title">اخر الاخبار</h2>
-        <div class="latest-news__carousels">
+      <div class="second-section d-flex">
+        <div class="latest-news">
+          <h2 class="latest-news__title">اخر الاخبار</h2>
           <div
             id="newsCarousel"
             class="carousel slide news_carousel"
@@ -99,9 +135,8 @@
                       (فرح جدة 39)
                     </h5>
                     <p>
-                      أتى موسم الخير والبركات بعادته يطل علينا بتلبيات تطل من
-                      السماء ، وافدة تهوي إلى البلد الأمين...
-                      <a href="#" class="read_more">قراءة المزيد</a>
+                      في أمسية حالمة كان حضور المؤسسة للمشاركة في نشر الفرحة
+                      والابتسامة في قلوب (1400) في عرس الزواج...
                     </p>
                   </div>
                 </div>
@@ -110,20 +145,50 @@
                 <div class="d-flex">
                   <img src="./Assets/c2.png" alt="" width="69" height="57" />
                   <div class="news_carousel__text">
-                    <h5>
-                      مشاركة مؤسسة حسن عباس شربتلي لخدمة المجتمع في رعاية حفل
-                      (فرح جدة 39)
-                    </h5>
+                    <h5>بشائر العيد تبشرنا برضا الرحمن</h5>
                     <p>
-                      أتى موسم الخير والبركات بعادته يطل علينا بتلبيات تطل من
-                      السماء ، وافدة تهوي إلى البلد الأمين...
-                      <a href="#" class="read_more">قراءة المزيد</a>
+                      ها قد بدأت بشائر العيد تبشرنا برضا الرحمن عنا سعيدا مباركا
+                      يعاد علينا وعليكم أعوام عديدات...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex">
+                  <img src="./Assets/c3.jpg" alt="" width="69" height="57" />
+                  <div class="news_carousel__text">
+                    <h5>جائزة التميز في مجال المنح (مانح) لعام 2018م</h5>
+                    <p>
+                      يستمر عطاء هذه المؤسسة المباركة وتشرق شمسها كل يوم بخيرات
+                      وعطاءات محققة النيات الصافيات التي...
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="ach">
+          <div
+            id="achivmentsCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Assets/xx1.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/xx2.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/xx3.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="founder">
+          <img src="./Assets/founder.png" alt="founder" width="223" />
         </div>
       </div>
     </div>

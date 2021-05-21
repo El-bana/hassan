@@ -66,10 +66,16 @@ body {
   max-width: 773px;
 }
 
+.second-section {
+  margin-top: 18px;
+}
+
 .latest-news {
   height: 102px;
   width: 430px;
   background: url(./Assets/news.png);
+  padding-top: 1px;
+  margin-left: 20px;
 }
 
 .latest-news__title {
@@ -88,6 +94,7 @@ body {
   color: #9099a7;
   direction: rtl;
   margin: 0 5px 4px 0;
+  font-weight: 700;
 }
 
 .news_carousel__text p {
@@ -95,18 +102,46 @@ body {
   color: #606060;
   margin: 0 7px 0 0;
   line-height: 12px;
-  position: relative;
 }
-.read_more {
-  font-size: 12px;
-  color: #606060;
-  margin: 0 7px 0 0;
-  align-self: flex-end;
-  background: url(./Assets/read_more.png) no-repeat;
-  font-size: 0;
+
+#achivmentsCarousel {
+  max-width: 223px;
+}
+
+.founder {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
   display: inline-block;
-  width: 145px;
-  height: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
   position: absolute;
-  left: 0;
+  visibility: hidden;
+  opacity: 0;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: rgb(21, 90, 43);
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
 }
