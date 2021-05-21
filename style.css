@@ -272,6 +272,13 @@ body {
 .slide-box .slide .details a {
   color: #cced2b;
 }
+.slide-box .slide img {
+  opacity: 0.8;
+  transition: .4s ease;
+}
+.slide-box .slide img:hover {
+  opacity: 1;
+}
 .carousel-control-next,
 .carousel-control-prev {
   opacity: 1 !important;
