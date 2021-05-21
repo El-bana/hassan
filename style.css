@@ -1,0 +1,112 @@
+body {
+  background-color: beige;
+  direction: rtl;
+  text-align: right;
+  font-family: Tahoma;
+}
+
+.main-content {
+  margin: 0 11%;
+}
+
+.header {
+  border-bottom: 7px solid #155a2b;
+  position: relative;
+  width: fit-content;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation ul li {
+  display: inline;
+  height: 41px;
+  margin-left: 2px;
+}
+
+.navigation-button {
+  color: transparent;
+  height: inherit;
+  display: block;
+  font-size: 0;
+}
+
+#home {
+  background: url(./Assets/home.png) center bottom;
+  width: 141px;
+}
+#about {
+  background: url(./Assets/about.png) center bottom;
+  width: 117px;
+}
+#prog {
+  background: url(./Assets/prog.png) center bottom;
+  width: 177px;
+}
+#media {
+  background: url(./Assets/media.png) center bottom;
+  width: 161px;
+}
+#contact {
+  background: url(./Assets/contact.png) center bottom;
+  width: 164px;
+}
+
+#slidesCarousel {
+  max-width: 773px;
+}
+
+.latest-news {
+  height: 102px;
+  width: 430px;
+  background: url(./Assets/news.png);
+}
+
+.latest-news__title {
+  background: url(./Assets/news_title.png) no-repeat right;
+  margin: 6px 5px 14px 0;
+  height: 15px;
+  font-size: 0;
+}
+
+#newsCarousel {
+  max-width: 430px;
+}
+
+.news_carousel__text h5 {
+  font-size: 12px;
+  color: #9099a7;
+  direction: rtl;
+  margin: 0 5px 4px 0;
+}
+
+.news_carousel__text p {
+  font-size: 12px;
+  color: #606060;
+  margin: 0 7px 0 0;
+  line-height: 12px;
+  position: relative;
+}
+.read_more {
+  font-size: 12px;
+  color: #606060;
+  margin: 0 7px 0 0;
+  align-self: flex-end;
+  background: url(./Assets/read_more.png) no-repeat;
+  font-size: 0;
+  display: inline-block;
+  width: 145px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+}
