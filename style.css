@@ -1,5 +1,5 @@
 html {
-  background: url('./Assets/top-bg.png') top;
+  background: url("./Assets/top-bg.png") top;
 }
 body {
   height: 100vh;
@@ -7,7 +7,7 @@ body {
   direction: rtl;
   text-align: right;
   font-family: Tahoma;
-  background: url('Assets/bg2.png') no-repeat bottom;
+  background: url("Assets/bg2.png") no-repeat bottom;
 }
 .top-bar {
   display: flex;
@@ -29,7 +29,7 @@ body {
   list-style-type: none;
   color: #155a2b;
   font-size: 10px;
-  background: url('Assets/lang_img.png') no-repeat center;
+  background: url("Assets/lang_img.png") no-repeat center;
   margin: 2px 3px 0;
 }
 .lang-switcher .active {
@@ -49,13 +49,13 @@ body {
   outline: none;
   width: 149px;
   height: 25px;
-  background: url('Assets/form-rtl.png') no-repeat;
+  background: url("Assets/form-rtl.png") no-repeat;
   margin: 0;
   padding-left: 0 !important;
   padding-right: 5px !important;
 }
 .search-submit {
-  background: url('Assets/magnify-rtl.png') no-repeat;
+  background: url("Assets/magnify-rtl.png") no-repeat;
   outline: none;
   border: 0;
   width: 30px;
@@ -65,14 +65,13 @@ body {
   width: 965px;
   margin: 9px auto;
   min-height: 680px;
-  background: url('/Assets/wrapper.png') repeat scroll center bottom transparent;
+  background: url("/Assets/wrapper.png") repeat scroll center bottom transparent;
   padding: 0 0 25px;
 }
 
 .header {
   border-bottom: 7px solid #155a2b;
   position: relative;
-  width: fit-content;
 }
 
 .navigation {
@@ -258,7 +257,7 @@ body {
   height: 39px;
   bottom: 0;
   width: 100%;
-  background: url('/Assets/bg_op.png') repeat scroll 0 0 transparent;
+  background: url("/Assets/bg_op.png") repeat scroll 0 0 transparent;
   opacity: 0.9;
 }
 .slide-box .slide .details p,
