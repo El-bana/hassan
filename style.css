@@ -72,6 +72,7 @@ body {
 .header {
   border-bottom: 7px solid #155a2b;
   position: relative;
+  /* width: fit-content; */
 }
 
 .navigation {
@@ -215,7 +216,7 @@ body {
 
 .readmore {
   background: url(./Assets/read_more.png) no-repeat;
-  bottom: 0;
+  bottom: 2px;
   left: 0;
   margin: 0;
   position: absolute;
